@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ff9966, #ff5e62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  background: rgba(0,0,0,0.5);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+#set-alarm {
+  margin: 1rem 0;
+}
+
+#set-alarm input, #set-alarm select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  margin: 0.3rem;
+}
+
+#add-alarm-btn {
+  background: #fff;
+  color: #ff5e62;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#add-alarm-btn:hover {
+  background: #ddd;
+}
+
+#alarm-list {
+  list-style: none;
+  padding: 0;
+}
+
+#alarm-list li {
+  background: rgba(255,255,255,0.1);
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
